@@ -1,0 +1,24 @@
+.tasks{
+    flex: 1 1 auto;
+}
+.tasks_container{
+    padding: 75px 15px 140px 15px;
+    background-color: #fff;
+    position: relative;
+}
+.tasks-block-text{
+    max-width: 80%;
+
+}
+.block-text-title{
+    
+}
+.tasks-content{}
+.tasks-items{}
+.tasks-column{} 
+.column-1{}
+.tasks-item{} 
+.tem-tasks{}
+.item-tasks-title{}
+.item-tasks-text{}
+.column-2{}

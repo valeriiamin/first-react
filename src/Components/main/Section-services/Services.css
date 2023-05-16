@@ -1,0 +1,140 @@
+.services {
+    flex: 1 1 auto;
+}
+
+.services_container {
+    padding: 100px 15px 120px 15px;
+    position: relative;
+}
+
+.services-block-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 68px;
+}
+.block-text {
+}
+.serv {
+    text-align: center;
+    margin-right: 60px;
+}
+.block-text-text {
+}
+.services-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px -30px;
+}
+.services-column {
+    flex: 0 1 33.3333%;
+    margin: 0 0 30px 0;
+    padding: 0 15px;
+}
+
+.services-item {
+    background: #ffffff;
+    box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.01), 0px 5px 3px rgba(0, 0, 0, 0.05),
+        0px 2px 2px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.09),
+        0px 0px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+.item-services {
+    padding: 40px;
+}
+
+.item-services-main{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .item-services-active {
+    padding: 25px 27px 35px 40px;
+    align-items: flex-start;
+} */
+.item-services-icon {
+    margin-bottom: 27px;
+}
+.item-services-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 128.1%;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.box-item {
+    padding: 10px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 128.1%;
+    text-align: center;
+}
+.box-item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.item-services-text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 132.6%;
+    margin-bottom: 32px;
+}
+.item-services-box {
+    display: flex;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1027px) {
+        .item-services {
+        padding: 48px 30px 48px 30px;
+        align-items: center;
+    }
+
+    .item-services-icon {
+        margin: 0 0 27px 0;
+    }
+}
+
+@media (max-width: 910px) {
+    .services-column{
+        flex: 0 1 50%;
+    }
+}
+
+@media (max-width: 700px){
+    .services-column{
+        flex: 0 1 100%;
+    }
+
+    .services_container {
+        padding: 80px 15px 100px 15px;
+    }
+
+    .services-block-text{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 530px){
+    .services-block-text{
+        flex-direction: column;
+    }
+
+    .serv {
+        margin: 0 0 18px 0;
+    }
+
+    .block-text-text {
+    text-align: center;
+    }
+}

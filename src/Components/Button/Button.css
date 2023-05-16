@@ -1,0 +1,41 @@
+button{
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 24px 43px;
+}
+
+.main-button {
+    background-color: #EB5757;
+}
+
+.main-button-blue{
+    background-color: #0C4AB3;
+}
+
+.steps-button{
+    background-color: #EB5757;
+    padding: 52px 80px;
+    border-radius: 15px;
+}
+
+.order-button{
+    background-color: #3980FF;
+
+}
+
+.padding{
+    padding: 52px 80px;
+    background-color: #EB5757;
+}
+
+.prices-button{
+    color: #3980FF;
+    background-color: #fff;
+    border: 1px solid #3980FF;
+}
+
+.prices-button:hover{
+    color: #FFFFFF;
+    background-color: #3980FF;
+    border: 1px solid #3980FF;
+}

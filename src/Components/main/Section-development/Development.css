@@ -1,0 +1,166 @@
+.development {
+    flex: 1 1 auto;
+    background-color: #3980ff;
+}
+
+.development-block {
+
+}
+
+.development_container {
+display: flex;
+flex-wrap: wrap;
+padding: 207px 20px 190px 20px;
+
+}
+
+.development-image {
+flex: 0 1 45%;
+}
+.development-image img {
+    max-width: 100%;
+    /* padding: 0 20px; */
+}
+.development-content {
+    flex: 0 1 55%;
+/* padding: 0 20px; */
+}
+
+.app-image {
+
+}
+.development-block-text {
+    display: flex;
+    flex-direction: column;
+}
+.text-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.dev{
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.block-text-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.item-img {
+    margin-right: 34px;
+}
+.item-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 148.6%;
+    color: #ffffff;
+}
+
+.block-text {
+    margin-bottom: 40px;
+}
+.block-text-buttons {
+    display: flex;
+}
+
+.block-text-buttons button {
+    margin-right: 45px;
+}
+
+
+
+
+
+
+@media (max-width: 1057px) {
+    .development_container {
+        padding: 118px 20px 118px 20px;
+    }
+
+    .block-text-title {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 910px) {
+    .development_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 80px 20px 118px 20px;
+    }
+    .development-content{
+        margin-bottom: 50px;
+    }
+
+    .block-text-title-white {
+        font-size: 40px;
+    }
+
+    .item-text {
+        font-size: 14px;
+    }
+
+    .block-text-buttons button {
+        margin-right: 15px;
+    }
+
+    .block-text-buttons {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 10px;
+    }
+
+    .block-text-buttons button {
+        margin: 0;
+    }
+}
+
+@media (max-width: 530px) {
+    .development_container {
+        padding: 65px 20px 75px 20px;
+    }
+
+    .text-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .block-text-buttons {
+        max-width: 100%;
+    }
+
+    .block-text-buttons button {
+        margin: 0;
+    }
+}
+
+@media (max-width: 378px) {
+    .development_container {
+        padding: 40px 20px 40px 20px;
+    }
+
+    .development-block-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-text {
+        margin-bottom: 20px;
+    }
+
+    .item-img {
+        margin-right: 18px;
+    }
+
+    .block-text-item {
+    }
+}
