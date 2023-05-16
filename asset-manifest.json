@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/first-react/static/css/main.14737f79.css",
+    "main.js": "/first-react/static/js/main.614f1d98.js",
+    "static/media/app.png": "/first-react/static/media/app.095cf4b909c702a12002.png",
+    "static/media/icon6.png": "/first-react/static/media/icon6.ac0508a95c280f5f03be.png",
+    "static/media/icon5.png": "/first-react/static/media/icon5.a25db96e45e1ee75ae2f.png",
+    "static/media/icon7.png": "/first-react/static/media/icon7.602b2f3ad1af823ee21a.png",
+    "static/media/icon3.png": "/first-react/static/media/icon3.e36715c1ee4cc7d559b7.png",
+    "static/media/icon1.png": "/first-react/static/media/icon1.75532c8a500f44c17125.png",
+    "static/media/icon4.png": "/first-react/static/media/icon4.5b3d638ceb1c3ed15662.png",
+    "static/media/icon2.png": "/first-react/static/media/icon2.007499d7516483f3da9f.png",
+    "static/media/logo.png": "/first-react/static/media/logo.d88b04400af8192277d5.png",
+    "index.html": "/first-react/index.html",
+    "main.14737f79.css.map": "/first-react/static/css/main.14737f79.css.map",
+    "main.614f1d98.js.map": "/first-react/static/js/main.614f1d98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14737f79.css",
+    "static/js/main.614f1d98.js"
+  ]
+}
